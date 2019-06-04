@@ -1,0 +1,30 @@
+{
+  "name": "instagram-bot-likes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glotovdi/instagram-bot-likes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glotovdi/instagram-bot-likes/issues"
+  },
+  "homepage": "https://github.com/glotovdi/instagram-bot-likes#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.11",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^3.3.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "node-normalize-scss": "^3.0.0",
+    "normalize-scss": "^6.0.0",
+    "sass-module-importer": "^1.4.0"
+  }
+}
