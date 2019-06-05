@@ -3,10 +3,14 @@
 //   console.log(textarea.value.split("\n"));
 // });
 
-function openAndPush(url, id) {
-  var win = window.open("https://www.google.com");
-  setTimeout(function() {
-    win.document.body.appendChild(element);
-    console.log("New script appended!");
-  }, 10000);
+function openAndPush(url) {
+    var win = window.open(url);
+    var script = document.createElement('script');
+    script.setAttribute('type', 'text/javascript');
+    script.innerText = "var button = document.querySelector('.dCJp8');button.click();window.close()";
+    setTimeout(function() {
+        win.document.body.appendChild(script);
+
+        console.log('script');
+    }, 4000);
 }
